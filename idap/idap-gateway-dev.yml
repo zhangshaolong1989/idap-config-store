@@ -1,3 +1,10 @@
+server:
+  port: 9010
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://idap-eureka:8090/eureka
 idap:
   test:
     value: 123adafdsasafd
